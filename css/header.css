@@ -1,0 +1,87 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.header .logo {
+    width: 25%;
+    float: left;
+}
+
+.header .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.nav {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.bp {
+    position: absolute;
+    width: 120px;
+    padding: 5px;
+    background-color: blue;
+    text-align: center;
+    left: 78%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.bp {
+    text-align: center;
+    visibility: hidden;
+}
+
+.p-bp {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+
+
+.header .container .header-content .nav>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header .container .header-content .nav>li>a {
+    color: #db0b0b;
+    padding: 5px;
+    display: block;
+}
+
+.header .container .header-content .nav>li>a::after,
+.header .container .header-content .nav>li>a.active::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: blue;
+    margin-top: 2px;
+    transition: .5s;
+}
+
+.header .container .header-content .nav>li>a.active::after {
+    width: 100%;
+}
+
+.header .container .header-content .nav>li>a:hover::after {
+    width: 100%;
+}
+
+.dd:hover+.bp {
+    visibility: visible;
+    opacity: 1;
+}
+
+.clear {
+    clear: both;
+}

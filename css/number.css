@@ -1,0 +1,59 @@
+.numbers {
+    position: relative;
+    background-image: url(../images/eee.jpeg);
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.numbers-items {
+    overflow: hidden;
+    padding-top: 130px;
+}
+
+.number-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.fa-group::before,
+.fa-users::before {
+    content: "\f0c0";
+}
+
+.number-item-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.number-item-text {
+    color: #fff;
+}
+
+.fa-trophy::before {
+    content: "\f091";
+}
+
+.fa-coffee::before {
+    content: "\f0f4";
+}
+
+.fa-file::before {
+    content: "\f15b";
+}

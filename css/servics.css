@@ -1,0 +1,73 @@
+.service {
+    background-color: #f9f9f9;
+    margin-top: 380px;
+}
+
+.pd-y {
+    padding: 120px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.service-item {
+    width: 50%;
+    float: left;
+}
+
+.service-item .section-header {
+    text-align: left;
+}
+
+.section-header .section-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    margin-top: 6px;
+}
+
+.service-item .section-header .line {
+    margin: 0 0 45px 0;
+}
+
+.service-item-desc {
+    padding-right: 20px;
+    color: #999;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style: none;
+}
+
+.service-list li {
+    margin-bottom: 13px;
+    color: #999;
+}
+
+.fa-check::before {
+    content: "\f00c";
+}
+
+.service-item {
+    width: 50%;
+    float: left;
+}
+
+.service-bullets {
+    list-style: none;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+.klo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,110 @@
+.pricing {
+    background-color: rgb(232, 232, 232);
+}
+
+.pd-y {
+    padding: 120px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.pricing-plans {
+    overflow: hidden;
+}
+
+.pricing-item {
+    position: relative;
+}
+
+.pricing-item {
+    float: left;
+    width: 27%;
+    padding: 30px 15px;
+    border: 1px solid #a8a8a8;
+    text-align: center;
+}
+
+.pricing-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #0b0c0c;
+    transition: .5s;
+    opacity: .5;
+}
+
+.pricing-item-text {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #999;
+}
+
+.pricing-item-permonth {
+    width: 100px;
+    height: 100px;
+    padding: 12px 0;
+    margin: 20px auto;
+    border: 2px solid #6195ff;
+    border-radius: 50%;
+}
+
+.doller {
+    font-size: 50px;
+}
+
+.month {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-list li {
+    color: #999;
+    line-height: 1.8;
+}
+
+.pricing-item-purchase {
+    border: 2px solid #6195ff;
+    margin: auto;
+    padding: 4px;
+    background-color: none;
+    display: block;
+    width: 120px;
+    margin-top: 15px;
+    transition: color .5s;
+}
+
+.pricing-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #0b0c0c;
+    transition: .5s;
+    opacity: .5;
+}
+
+.pricing-item:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.pricing-item.mg {
+    margin: 0 5%;
+}
